@@ -7,7 +7,7 @@ export function MenuBar(options) {
     console.log(items)
 
     return(
-        <div className="flex flex-col w-[150px] h-[900px] bg-indigo-100">
+        <div className="flex flex-col w-[150px] h-[900px] bg-indigo-100 p-0 m-0">
             <ul className="flex flex-col list-none">
                 {items.map(item=><ListItem name={item.name} router={item.router}/>)}
             </ul>
